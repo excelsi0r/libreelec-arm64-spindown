@@ -1,4 +1,4 @@
-FROM arm64v8/alpine:latest
+FROM arm64v8/ubuntu:latest
 RUN apt update
 RUN apt install sdparm
 VOLUME /dev/sda
